@@ -12,6 +12,8 @@ body {
 .navbar {
     background-color: #250e0e;
     position: fixed;
+    left: 0;
+    right: 0;
     top: 0;
     width: 100%;
     height: 42px;
