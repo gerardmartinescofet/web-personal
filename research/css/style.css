@@ -65,11 +65,12 @@ body {
 }
 .container1 {
     font-size: 17px;
-    padding-top: 5px;
+    padding-top: 0px;
     padding-left: 24px;
     padding-right: 24px;
     line-height : 28px;
 }
+
 .container1 p {
     max-width: 1050px;
     margin: 16px auto;
@@ -80,3 +81,27 @@ body {
     flex: 1;  
     color: #E4C2C2;
 }
+
+.container2 {
+    font-size: 17px;
+    padding-top: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    line-height : 15px;
+}
+
+.container2 p {
+    max-width: 1050px;
+    margin: 15px auto;
+}
+#content-wrap {
+    margin-top: 42px;
+    padding-bottom: 12px;  
+    flex: 1;  
+    color: #E4C2C2;
+}
+
+#hp  {  
+     margin: 15px 50px 15px 150px;
+    }
+
