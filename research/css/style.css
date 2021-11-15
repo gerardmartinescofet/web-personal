@@ -1,5 +1,5 @@
 body {
-    background-color: #701515;
+    background-color: #691414;
     font-family: "Lora";
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ body {
     color: #E4C2C2;
 }
 .navbar {
-    background-color: #272B44;
+    background-color: #250e0e;
     position: fixed;
     top: 0;
     width: 100%;
@@ -23,7 +23,7 @@ body {
     
 }
 .navbar a {
-    color: #E4C2C2;
+    color: #250e0e;
     margin-right: 28px;
     display: inline-block;
     padding-bottom: 10px;
@@ -61,7 +61,7 @@ body {
     padding-right: 32px;
 }
 .high-light {
-    color: #E77555;
+    color: #ca922a;
 }
 .container1 {
     font-size: 17px;
