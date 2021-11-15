@@ -28,8 +28,8 @@ body {
     display: inline-block;
     padding-bottom: 10px;
     padding-top:10px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
     text-decoration: none;
 }
 .navbar a:visited {
