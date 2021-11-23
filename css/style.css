@@ -21,8 +21,7 @@ body {
     text-align: right;
     font-size: 20px;
     color: #E77555;
-    border-bottom: 1px solid  #E4C2C2;
-    
+    border-bottom: 1px solid  #E4C2C2;   
 }
 .navbar a {
     color: #E4C2C2;
@@ -43,24 +42,25 @@ body {
     text-decoration: none;
 }
 .title {
-    margin: 0 auto;
     font-weight: bold;
     font-size: 24px;
     padding-top: 50px;
-    max-width: 1050px;
+    width: 100%;
 }
 .section {
     margin: 0 auto;
     font-weight: bold;
     font-size: 20px;
-    padding-top: 50px;
-    padding-left: 24px;
+    padding-top: 32px;
     max-width: 1075px;
     text-decoration: underline;
+    width: 100%;
 }
 .header {
-    padding-left: 24px;
-    padding-right: 32px;
+    box-sizing: border-box;
+    max-width: 1075px;
+    margin: 0 auto;
+    padding: 0 24px;
 }
 .high-light {
     color: #ca922a;
@@ -68,11 +68,8 @@ body {
 .container1 {
     font-size: 17px;
     padding-top: 0px;
-    padding-left: 24px;
-    padding-right: 24px;
     line-height : 28px;
 }
-
 .container1 p {
     max-width: 1050px;
     margin: 16px auto;
@@ -83,7 +80,6 @@ body {
     flex: 1;  
     color: #E4C2C2;
 }
-
 .container2 {
     font-size: 17px;
     padding-top: 0px;
@@ -91,7 +87,6 @@ body {
     padding-right: 24px;
     line-height : 15px;
 }
-
 .container2 p {
     max-width: 1050px;
     margin: 15px auto;
@@ -102,8 +97,32 @@ body {
     flex: 1;  
     color: #E4C2C2;
 }
-
 #hp  {  
-     margin: 15px 50px 15px 150px;
+     /*margin: 15px 50px 15px 150px;*/
     }
+
+.flex {
+    display: flex;
+    max-width: 1075px;
+    box-sizing: border-box;
+    padding: 0 24px;
+    margin: 24px auto;
+    gap: 24px;
+}
+
+.flex-column {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .flex {
+        flex-direction: column;
+    }
+}
+
+.profile-picture {
+
+}
 
